@@ -1,0 +1,4 @@
+[debug] [person-build] Classpath dependencies List()
+[debug] [person-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'person-build' to '/Users/apollostowel/Person/project/.bloop/person-build.json'
+[success] Generated .bloop/person-build.json

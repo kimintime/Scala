@@ -1,0 +1,171 @@
+2023.07.04 14:16:58 INFO  Started: Metals version 0.11.12 in workspace '/Users/apollostowel/hello-world' for client Visual Studio Code 1.79.2.
+Jul 04, 2023 2:16:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 04, 2023 2:16:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 04, 2023 2:16:58 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/apollostowel/hello-world/.metals/metals (H2 2.1)
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.019s)
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 04, 2023 2:16:59 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.078s)
+2023.07.04 14:16:59 INFO  time: initialize in 0.76s
+2023.07.04 14:17:02 WARN  Build server is not auto-connectable.
+2023.07.04 14:17:02 WARN  no build target for: /Users/apollostowel/hello-world/build.sbt
+2023.07.04 14:17:07 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/qx/z_7dm0b15md_ydvvvcpb_0r40000gn/T/metals14103367627179453224/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.04 14:17:07 WARN  no build target for: /Users/apollostowel/hello-world/project/metals.sbt
+2023.07.04 14:17:07 WARN  no build target for: /Users/apollostowel/hello-world/project/project/metals.sbt
+2023.07.04 14:17:07 INFO  skipping build import with status 'Started'
+2023.07.04 14:17:08 ERROR [info] [launcher] getting org.scala-sbt sbt 1.9.0  (this may take some time)...
+2023.07.04 14:17:11 INFO  no build target found for /Users/apollostowel/hello-world/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.04 14:17:15 INFO  time: code lens generation in 13s
+2023.07.04 14:17:15 INFO  time: code lens generation in 8.29s
+2023.07.04 14:17:17 ERROR [info] [launcher] getting Scala 2.12.18 (for sbt)...
+2023.07.04 14:17:19 INFO  [info] welcome to sbt 1.9.0 (Oracle Corporation Java 19)
+2023.07.04 14:17:23 INFO  [info] loading settings for project hello-world-build-build from metals.sbt ...
+2023.07.04 14:17:25 INFO  [info] loading project definition from /Users/apollostowel/hello-world/project/project
+2023.07.04 14:17:29 INFO  [info] loading settings for project hello-world-build from metals.sbt ...
+2023.07.04 14:17:29 INFO  [info] loading project definition from /Users/apollostowel/hello-world/project
+2023.07.04 14:17:35 INFO  [success] Generated .bloop/hello-world-build.json
+2023.07.04 14:17:35 INFO  [success] Total time: 5 s, completed Jul 4, 2023, 2:17:35 PM
+2023.07.04 14:17:38 INFO  [info] loading settings for project hello-world from build.sbt ...
+2023.07.04 14:17:38 INFO  [info] set current project to hello-world (in build file:/Users/apollostowel/hello-world/)
+2023.07.04 14:17:40 INFO  [success] Generated .bloop/hello-world.json
+2023.07.04 14:17:40 INFO  [success] Generated .bloop/hello-world-test.json
+2023.07.04 14:17:40 INFO  [success] Total time: 1 s, completed Jul 4, 2023, 2:17:40 PM
+2023.07.04 14:17:40 INFO  time: ran 'sbt bloopInstall' in 32s
+2023.07.04 14:17:40 INFO  Attempting to connect to the build server...
+2023.07.04 14:17:40 INFO  Setting up current java home /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home in /Users/apollostowel/.bloop/bloop.json
+2023.07.04 14:17:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/hello-world/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 14:17:51 INFO  Attempting to connect to the build server...
+2023.07.04 14:17:51 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 14:17:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/hello-world/project/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 14:17:53 INFO  time: Connected to build server in 13s
+2023.07.04 14:17:53 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.04 14:17:53 INFO  time: Imported build in 0.27s
+2023.07.04 14:18:03 INFO  time: indexed workspace in 9.96s
+2023.07.04 14:18:15 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:18:36 INFO  time: compiled hello-world in 21s
+2023.07.04 14:22:04 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:22:05 INFO  time: compiled hello-world in 1.23s
+2023.07.04 14:23:56 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:23:57 INFO  time: compiled hello-world in 1.25s
+2023.07.04 14:24:22 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:24:22 INFO  time: compiled hello-world in 0.77s
+Jul 04, 2023 2:25:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+2023.07.04 14:28:03 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:28:03 INFO  time: compiled hello-world in 0.94s
+2023.07.04 14:29:11 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:29:11 INFO  time: compiled hello-world in 0.91s
+2023.07.04 14:33:20 INFO  Shutting down server
+2023.07.04 14:33:20 INFO  shutting down Metals
+2023.07.04 14:33:20 INFO  Shut down connection with build server.
+2023.07.04 14:33:20 INFO  Shut down connection with build server.
+2023.07.04 14:33:20 INFO  Exiting server
+2023.07.04 14:42:08 INFO  Started: Metals version 0.11.12 in workspace '/Users/apollostowel/hello-world' for client Visual Studio Code 1.79.2.
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/apollostowel/hello-world/.metals/metals (H2 2.1)
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.033s)
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Jul 04, 2023 2:42:08 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.07.04 14:42:09 INFO  time: initialize in 1.07s
+2023.07.04 14:42:12 INFO  Attempting to connect to the build server...
+2023.07.04 14:42:12 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 14:42:12 INFO  skipping build import with status 'Installed'
+2023.07.04 14:42:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/hello-world/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 14:42:12 INFO  Attempting to connect to the build server...
+2023.07.04 14:42:12 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 14:42:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/hello-world/project/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 14:42:12 INFO  time: Connected to build server in 0.7s
+2023.07.04 14:42:12 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.04 14:42:17 INFO  no build target found for /Users/apollostowel/hello-world/src/main/scala/HelloScala.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.04 14:42:17 INFO  time: code lens generation in 6.23s
+2023.07.04 14:42:18 INFO  time: Imported build in 0.2s
+2023.07.04 14:42:24 INFO  time: indexed workspace in 6.08s
+2023.07.04 14:46:49 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:46:49 INFO  time: compiled hello-world in 0.94s
+Jul 04, 2023 2:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+Jul 04, 2023 2:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 76
+Jul 04, 2023 2:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+Jul 04, 2023 2:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 81
+2023.07.04 14:48:29 INFO  compiling hello-world (1 scala source)
+2023.07.04 14:48:30 INFO  time: compiled hello-world in 1.06s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.11.1/metaconfig-typesafe-config_2.13-0.11.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.3/scalafmt-config_2.13-3.7.3.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.3/scalafmt-sysops_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.7.6/scalameta_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.7.6/parsers_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.3/scalafmt-core_2.13-3.7.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.7.6/common_2.13-4.7.6.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.7.6/trees_2.13-4.7.6.jar
+Jul 04, 2023 3:06:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 253
+2023.07.04 15:08:07 INFO  compiling hello-world (1 scala source)
+2023.07.04 15:08:08 INFO  time: compiled hello-world in 1.05s
+2023.07.04 15:09:10 INFO  compiling hello-world (1 scala source)
+2023.07.04 15:09:10 INFO  time: compiled hello-world in 0.94s
+2023.07.04 15:12:31 INFO  compiling hello-world (1 scala source)
+2023.07.04 15:12:31 INFO  time: compiled hello-world in 0.98s
+Jul 04, 2023 3:15:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 04, 2023 3:16:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 04, 2023 3:17:40 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.04 22:49:46 INFO  Shutting down server
+2023.07.04 22:49:46 INFO  shutting down Metals
+2023.07.04 22:49:46 INFO  Exiting server

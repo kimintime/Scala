@@ -1,0 +1,122 @@
+2023.07.04 22:59:46 INFO  Started: Metals version 0.11.12 in workspace '/Users/apollostowel/Person' for client Visual Studio Code 1.79.2.
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/apollostowel/Person/.metals/metals (H2 2.1)
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 04, 2023 10:59:46 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.089s)
+2023.07.04 22:59:47 INFO  time: initialize in 0.86s
+2023.07.04 22:59:49 WARN  Build server is not auto-connectable.
+2023.07.04 22:59:49 WARN  no build target for: /Users/apollostowel/Person/build.sbt
+2023.07.04 22:59:54 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.8.2 -jar /var/folders/qx/z_7dm0b15md_ydvvvcpb_0r40000gn/T/metals1616951103779086463/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.04 22:59:54 WARN  no build target for: /Users/apollostowel/Person/project/metals.sbt
+2023.07.04 22:59:54 WARN  no build target for: /Users/apollostowel/Person/project/project/metals.sbt
+2023.07.04 22:59:54 INFO  skipping build import with status 'Started'
+2023.07.04 22:59:54 INFO  no build target found for /Users/apollostowel/Person/build.sbt. Using presentation compiler with project's scala-library version: 3.2.2
+2023.07.04 22:59:54 ERROR [info] [launcher] getting org.scala-sbt sbt 1.8.2  (this may take some time)...
+2023.07.04 22:59:57 INFO  time: code lens generation in 7.47s
+2023.07.04 22:59:57 INFO  time: code lens generation in 2.93s
+2023.07.04 22:59:59 ERROR [info] [launcher] getting Scala 2.12.17 (for sbt)...
+2023.07.04 23:00:01 INFO  [info] Updated file /Users/apollostowel/Person/project/build.properties: set sbt.version to 1.8.2
+2023.07.04 23:00:01 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 19)
+2023.07.04 23:00:05 INFO  [info] loading settings for project person-build-build from metals.sbt ...
+2023.07.04 23:00:06 INFO  [info] loading project definition from /Users/apollostowel/Person/project/project
+2023.07.04 23:00:10 INFO  [info] loading settings for project person-build from metals.sbt ...
+2023.07.04 23:00:10 INFO  [info] loading project definition from /Users/apollostowel/Person/project
+2023.07.04 23:00:14 INFO  [success] Generated .bloop/person-build.json
+2023.07.04 23:00:14 INFO  [success] Total time: 4 s, completed Jul 4, 2023, 11:00:14 PM
+2023.07.04 23:00:14 INFO  [info] loading settings for project person from build.sbt ...
+2023.07.04 23:00:14 INFO  [info] set current project to person (in build file:/Users/apollostowel/Person/)
+2023.07.04 23:00:15 INFO  [success] Generated .bloop/person-test.json
+2023.07.04 23:00:15 INFO  [success] Generated .bloop/person.json
+2023.07.04 23:00:15 INFO  [success] Total time: 0 s, completed Jul 4, 2023, 11:00:16 PM
+2023.07.04 23:00:16 INFO  time: ran 'sbt bloopInstall' in 22s
+2023.07.04 23:00:16 INFO  Attempting to connect to the build server...
+2023.07.04 23:00:16 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 23:00:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/Person/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 23:00:18 INFO  Attempting to connect to the build server...
+2023.07.04 23:00:18 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 23:00:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/Person/project/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 23:00:18 INFO  time: Connected to build server in 2.26s
+2023.07.04 23:00:18 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.04 23:00:18 INFO  time: Imported build in 0.15s
+2023.07.04 23:00:23 INFO  running '/Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/qx/z_7dm0b15md_ydvvvcpb_0r40000gn/T/metals17509344046986115331/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.07.04 23:00:27 INFO  [info] welcome to sbt 1.8.2 (Oracle Corporation Java 19)
+2023.07.04 23:00:29 INFO  time: indexed workspace in 10s
+2023.07.04 23:00:30 INFO  [info] loading settings for project person-build-build from metals.sbt ...
+2023.07.04 23:00:32 INFO  [info] loading project definition from /Users/apollostowel/Person/project/project
+2023.07.04 23:00:34 INFO  time: code lens generation in 1.89s
+2023.07.04 23:00:34 INFO  time: code lens generation in 8.1s
+2023.07.04 23:00:34 INFO  [info] loading settings for project person-build from metals.sbt ...
+2023.07.04 23:00:34 INFO  [info] loading project definition from /Users/apollostowel/Person/project
+2023.07.04 23:00:39 INFO  [success] Generated .bloop/person-build.json
+2023.07.04 23:00:39 INFO  [success] Total time: 4 s, completed Jul 4, 2023, 11:00:39 PM
+2023.07.04 23:00:39 INFO  [info] loading settings for project person from build.sbt ...
+2023.07.04 23:00:40 INFO  [info] set current project to person (in build file:/Users/apollostowel/Person/)
+2023.07.04 23:00:40 INFO  [success] Generated .bloop/person.json
+2023.07.04 23:00:40 INFO  [success] Generated .bloop/person-test.json
+2023.07.04 23:00:40 INFO  [success] Total time: 0 s, completed Jul 4, 2023, 11:00:41 PM
+2023.07.04 23:00:41 INFO  time: ran 'sbt bloopInstall' in 17s
+2023.07.04 23:00:41 INFO  Disconnecting from Bloop session...
+2023.07.04 23:00:41 INFO  Shut down connection with build server.
+2023.07.04 23:00:41 INFO  Shut down connection with build server.
+2023.07.04 23:00:41 INFO  Attempting to connect to the build server...
+2023.07.04 23:00:41 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 23:00:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/Person/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 23:00:41 INFO  Attempting to connect to the build server...
+2023.07.04 23:00:41 INFO  Bloop uses /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home defined at /Users/apollostowel/.bloop/bloop.json
+2023.07.04 23:00:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/apollostowel/Person/project/.metals/bsp.trace.json or /Users/apollostowel/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.07.04 23:00:41 INFO  time: Connected to build server in 0.12s
+2023.07.04 23:00:41 INFO  Connected to Build server: Bloop v1.5.6
+2023.07.04 23:00:44 INFO  time: indexed workspace in 3.18s
+2023.07.04 23:06:52 WARN  no build target for: /Users/apollostowel/Person/src/Person.scala
+2023.07.04 23:07:28 WARN  no build target for: /Users/apollostowel/Person/src/Person.scala
+2023.07.04 23:08:54 INFO  compiling person (1 scala source)
+2023.07.04 23:09:11 INFO  time: compiled person in 16s
+Jul 04, 2023 11:09:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+Jul 04, 2023 11:09:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+Jul 04, 2023 11:10:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 82
+Jul 04, 2023 11:13:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 337
+2023.07.04 23:15:56 INFO  compiling person (1 scala source)
+2023.07.04 23:15:58 INFO  time: compiled person in 1.53s
+2023.07.04 23:16:25 INFO  compiling person (1 scala source)
+2023.07.04 23:16:27 INFO  time: compiled person in 1.34s
+2023.07.04 23:17:03 INFO  compiling person (1 scala source)
+2023.07.04 23:17:04 INFO  time: compiled person in 1.31s
+2023.07.04 23:17:29 INFO  compiling person (1 scala source)
+2023.07.04 23:17:30 INFO  time: compiled person in 1.38s
+2023.07.04 23:18:34 INFO  compiling person (1 scala source)
+2023.07.04 23:18:34 INFO  time: compiled person in 0.8s
+Jul 04, 2023 11:24:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1072
+2023.07.04 23:25:28 INFO  compiling person (1 scala source)
+2023.07.04 23:25:29 INFO  time: compiled person in 1.39s
+2023.07.04 23:28:02 INFO  Shutting down server
+2023.07.04 23:28:02 INFO  shutting down Metals
+2023.07.04 23:28:02 INFO  Shut down connection with build server.
+2023.07.04 23:28:02 INFO  Shut down connection with build server.
+2023.07.04 23:28:02 INFO  Exiting server
